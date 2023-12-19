@@ -1,0 +1,11 @@
+@charset "utf-8";
+
+div {
+width: 1920px;
+height: 65px;
+flex-shrink: 0;	
+
+border-style: 2px solid #323334;
+background: #1A1A1B;
+}
+
