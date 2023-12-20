@@ -1,11 +1,346 @@
-@charset "utf-8";
+utf-8
+/*Header*/
+.box1 {
+  width: 1920px;
+  height: 65px;
+}
 
-div {
+.box .headline {
+  position: fixed;
+  width: 1928px;
+  height: 65px;
+  top: 0;
+  left: 0;
+}
+
+.overlap-group {
+position: relative;
 width: 1920px;
 height: 65px;
-flex-shrink: 0;	
-
-border-style: 2px solid #323334;
-background: #1A1A1B;
+background-image: url("Component/Rectangle 1.png");
+background-size: 100% 100%
 }
+
+.image .reddit-icon {
+position: absolute;
+width: 44px;
+height: 44px;
+top: 10px;
+left: 20px;
+object-fit: cover;
+}
+
+.box .reddit-logo-wordmark {
+  position: absolute;
+  width: 137px;
+  height: 35px;
+  top: 14px;
+  left: 81px;
+}
+
+.box .overlap {
+position: absolute;
+width: 1057px;
+height: 44px;
+top: 10px;
+left: 235px;
+background-image: url("Component/Rectangle 2.png");
+background-size: 100% 100%
+}
+
+.box .search {
+  width: 30px;
+  top: 9px;
+  left: 22px;
+  position: absolute;
+  height: 30px;
+}
+
+.box .text-wrapper {
+  width: 141px;
+  top: 7px;
+  left: 61px;
+  font-family: "Verdana-Regular", Helvetica;
+  font-weight: 400;
+  color: #656869;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  height: 30px;
+}
+
+.box .chat {
+  position: absolute;
+  width: 40px;
+  height: 35px;
+  top: 16px;
+  left: 1307px;
+  object-fit: cover;
+}
+
+.box .not {
+  position: absolute;
+  width: 40px;
+  height: 35px;
+  top: 16px;
+  left: 1367px;
+  object-fit: cover;
+}
+
+.box .prim {
+  position: absolute;
+  width: 40px;
+  height: 35px;
+  top: 16px;
+  left: 1425px;
+  object-fit: cover;
+}
+
+.box .div {
+position: absolute;
+width: 182px;
+height: 35px;
+top: 16px;
+left: 1485px;
+background-image: url("Component/Rectangle 3.png");
+background-size: 100% 100%	
+}
+
+.box .adv {
+  position: absolute;
+  width: 39px;
+  height: 35px;
+  top: 0;
+  left: 14px;
+}
+
+.box .text-wrapper-2 {
+  position: absolute;
+  width: 115px;
+  height: 23px;
+  top: 6px;
+  left: 53px;
+  font-family: "Verdana-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.box .overlap-2 {
+  position: absolute;
+  width: 53px;
+  height: 50px;
+  top: 8px;
+  left: 1682px;
+}
+
+.box .ellipse {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: 0;
+  left: 0;
+}
+
+.box .img {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  top: 33px;
+left: 37;
+}
+
+.box .overlap-3 {
+position: absolute;
+width: 165px;
+height: 39px;
+top: 14px;
+left: 1739;
+}
+
+.box .text-wrapper-3 {
+position: absolute;
+width: 162px;
+height: 23px;
+top: 0;
+left: 3px;
+font-family: "Verdana-regular", Helvetica;
+font-weight: 400;
+color: #656869;
+font-size: 16px;
+letter-spacing: 0;
+line-height: normal;
+}
+
+.box .text-wrapper-4 {
+position: absolute;
+width: 96px;
+height: 13px;
+top: 22px;
+left: 19px;
+font-family: "Verdana-regular", Helvetica;
+font-weight: 400;
+color: #656869;
+font-size: 11px;
+letter-spacing: 0;
+line-height: normal;
+white-space: nowrap;
+}
+
+.box .karma {
+position: absolute;
+width: 20px;
+height: 19px;
+top: 20px;
+left: 0;
+}
+
+.box .group {
+position: absolute;
+width: 26px;
+height: 14px;
+top: 17px;
+left:139px;
+}
+
+/*Creater*/
+.box {
+width: 882px;
+height: 60px;
+}
+
+.box .create {
+position: fixed;
+width: 882px;
+height: 60px;
+top: 0;
+left: 0;
+}
+
+.box .overlap-group {
+position: relative;
+width: 882px;
+height: 60px;
+}
+
+.box .overlap {
+position: absolute;
+width: 412px;
+height: 40px;
+top: 10px;
+left: 24px;
+}
+
+.box .text-wrapper {
+position: absolute;
+width: 288px;
+height: 28;
+top: 6px;
+left: 69px;
+font-family: "Verdana-Bold", Helvetica;
+font-weight: 700;
+color: #000000;
+font-size: 16px;
+text-align: center;
+letter-spacing: 0;
+line-height: normal;
+}
+
+.box .div-wrapper {
+position: absolute;
+width: 411px;
+height: 40px;
+top: 10px;
+left: 449px;	
+}
+
+.box .div {
+position: absolute;
+width: 288px;
+height: 28px;
+top: 6px;
+left: 63px;
+font-family: "Verdana-bolt", Helventica;
+font-weight: 700;
+color: #d8dbdd;
+font-size: 16px;
+text-align: center;
+letter-spacing: 0px;
+line-height: normal;
+}
+
+/*Creat post*/
+
+.box2 {
+width: 882px;
+height: 60px;
+}
+
+.box .rectangle2 {
+position: fixed;
+width: 882px;
+height: 60px;
+top: 0;
+left: 0;
+}
+
+.box {
+width: 412px;
+height: 40px;
+}
+
+.box .rectangle3 {
+position: fixed;
+width: 412px;
+height: 40px;
+top: 0;
+left: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
