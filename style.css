@@ -1,90 +1,44 @@
 utf-8
+
+body {
+background-color: #030303;
+}
+
 /*Header*/
-.box1 {
-width: 1920px;
-height: 65px;
+header {
+background-color: #1A1A1B;
+overflow: auto;
+width: 1980px;
+height: 70px;
 }
 
-.box .headline {
-position: fixed;
-width: 1926px;
-height: 65px;
-top: 0;
-left: 0;
-}
-.box .overlap {
-position: fixed;
-width: 1920px;
-height: 65px;
-background-image: url("Component/Rectangle 1.png");
-backface-size: 100% 100%;
-}
-
-.image .reddit-icon {
-position: absolute;
+box-1 .logo {
 width: 44px;
 height: 44px;
-top: 10px;
-left: 20px;
-object-fit: cover;
+padding-left: 8px;
+padding-right: 10px;
+padding-top: 15px;
+padding-bottom: 10px;
 }
 
-.box .reddit-logo-wordmark {
-  position: absolute;
-  width: 137px;
-  height: 35px;
-  top: 14px;
-  left: 81px;
+box-2 .logo_wordmark {
+padding-top: 15px;
+padding-bottom: 10px;
+padding-left: 8px;
+padding-right: 10px;
 }
 
-.box .overlap-group {
-position: absolute;
-width: 1057px;
-height: 44px;
-top: 10px;
-left: 235px;
-background-image: url("Component/Rectangle 2.png");
-background-size: 100% 100%
+box-3 .search_box {
+padding-right: 8px;
+padding-bottom: 10px;
+padding-left: 8px;
+padding-top: 8px;
 }
 
-.box .search {
-  width: 30px;
-  top: 9px;
-  left: 22px;
-  position: absolute;
-  height: 30px;
-}
-
-.box .text-wrapper {
-  width: 141px;
-  top: 7px;
-  left: 61px;
-  font-family: "Verdana-Regular", Helvetica;
-  font-weight: 400;
-  color: #656869;
-  font-size: 18px;
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-  height: 30px;
-}
-
-.box .chat {
-  position: absolute;
-  width: 40px;
-  height: 35px;
-  top: 16px;
-  left: 1307px;
-  object-fit: cover;
-}
-
-.box .not {
-  position: absolute;
-  width: 40px;
-  height: 35px;
-  top: 16px;
-  left: 1367px;
-  object-fit: cover;
+box-4 .search {
+padding-left: 8px;
+padding-bottom: 15px;
+padding-right: 8px;
 }
 
 .box .prim {
@@ -96,15 +50,6 @@ background-size: 100% 100%
   object-fit: cover;
 }
 
-.box .div {
-position: absolute;
-width: 182px;
-height: 35px;
-top: 16px;
-left: 1485px;
-background-image: url("Component/Rectangle 3.png");
-background-size: 100% 100%	
-}
 
 .box .adv {
   position: absolute;
