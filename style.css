@@ -95,4 +95,235 @@ width: 20px;
 height: auto;
 margin: 0;
 padding: 0;
-    }
+}
+
+/*Create*/
+
+.Create {
+position: absolute; 
+margin-left: 400px; 
+margin-right: 1000px; 
+margin-top: 20px; 	
+}
+
+.Create-post {
+left: 0px; 
+top: 0px;
+position: absolute;
+background: #1A1A1B;
+border-radius: 5px;
+border: 2px #323334 solid;
+}
+
+.Create-post-2 {
+left: 24px; 
+top: 10px; 
+position: absolute; 
+background: #D8DBDD; 
+border-radius: 18px;		
+}
+
+.Create-box {
+left: 449px; 
+top: 10px; 
+position: absolute; 
+background: #181819; 
+border-radius: 18px; 
+border: 1px #D8DBDD solid;
+}
+
+.Create-post-text {
+left: 93px; 
+top: 16px; 
+position: absolute; 
+text-align: center; 
+color: black; 
+font-size: 16px; 
+font-family: Verdana; 
+font-weight: 700; 
+word-wrap: break-word
+}
+
+.Create-com {
+left: 512px; 
+top: 16px; 
+position: absolute; 
+text-align: center; 
+color: #D8DBDD;
+font-size: 16px;
+font-family: Verdana; 
+font-weight: 700; 
+word-wrap: break-word
+}
+
+/*Profil*/
+
+.part-of-profil {
+position: absolute; 
+margin-left: 400px; 
+margin-right: 1000px; 
+margin-top: 100px;
+background-color: #1A1A1B;
+border-radius: 5px;
+border-color: #323334 solid 2px;
+}
+
+.Cir {
+position: static;	
+}
+
+.container-2 {
+display: flex;
+align-items: center;
+}
+
+.Pop-Post {
+margin-left: 5px;
+margin-right: 7px;
+margin-top: 7px;
+margin-bottom: 7px;
+}
+
+.text-wrapper-7 {
+width: 97px;
+height: 33px;
+text-align: left;
+color: #656869;
+font-size: 20px;
+font-family: Verdana; 
+font-weight: 400; 
+word-wrap: break-word;
+margin-left: 5px;
+}
+
+.comments {
+margin-left: 5px;
+margin-right: 7px;
+margin-top: 7px;
+margin-bottom: 7px;
+}
+
+.text-wrapper-8 {
+width: auto;
+height: 33px;
+text-align: left;
+color: #656869;
+font-size: 20px;
+font-family: Verdana; 
+font-weight: 400; 
+word-wrap: break-word;
+margin-left: 5px;
+margin-right: 20px;
+}
+
+.history {
+margin-left: 5px;
+margin-right: 20px;
+margin-top: 7px;
+margin-bottom: 7px;
+}
+
+.text-wrapper-9 {
+width: auto;
+height: 33px;
+text-align: left;
+color: #656869;
+font-size: 20px;
+font-family: Verdana; 
+font-weight: 400; 
+word-wrap: break-word;
+margin-left: 5px;
+margin-right: 20px;
+}
+
+.saved {
+margin-left: 5px;
+margin-right: 7px;
+margin-top: 7px;
+margin-bottom: 7px;
+}
+
+.text-wrapper-10 {
+width: auto;
+height: 33px;
+text-align: left;
+color: #656869;
+font-size: 20px;
+font-family: Verdana; 
+font-weight: 400; 
+word-wrap: break-word;
+margin-left: 5px;
+margin-right: 20px;
+}
+
+/*Post*/
+
+.contain-lap-6 {
+width: 882px;
+height: 172px;
+background: #1A1A1B;
+border: solid #303132 2px;
+border-radius: 5px; 
+position: relative;
+margin-left: 400px; 
+margin-right: 1000px; 
+margin-top: 180px;
+}
+
+.overlap-7 {
+width: 35px;
+height: 172px;
+background: #161617;
+border-bottom-left-radius: 3px;
+border-top-left-radius: 3px;
+}
+
+.downvoting {
+transform: rotate(180deg);
+border-radius: 5px;
+align-items: center;
+margin-left: 5px;
+}
+
+.upvoting {
+border-radius: 5px;
+align-items: center;
+margin-left: 5px;
+}
+
+.text-wrapper-11 {
+text-align: center; 
+color: white; 
+font-size: 11px; 
+font-family: Verdana; 
+font-weight: 400; 
+word-wrap: break-word;
+margin-bottom: 5px;
+}
+
+.Cir-2 {
+position: absolute;
+top: 13%;
+left: 7%;
+transform: translate( -50%, -50%);
+width: 40px;
+height: 40px;
+margin-right: 10px;
+}
+
+.text-post {
+display: flex;
+align-items: center;
+}
+
+.text-post p {
+margin: 0;
+}
+
+
+
+
+
+
+
+
