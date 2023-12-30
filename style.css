@@ -29,6 +29,8 @@ padding-right: 10px;
 }
 
 .container {
+width: 1920px;
+height: 65px;
 display: flex;
 align-items: center;
 }
@@ -261,10 +263,11 @@ margin-right: 20px;
 .contain-lap-6 {
 width: 882px;
 height: 172px;
+display: flex;
+align-items: center;
 background: #1A1A1B;
 border: solid #303132 2px;
 border-radius: 5px; 
-position: relative;
 margin-left: 400px; 
 margin-right: 1000px; 
 margin-top: 180px;
@@ -301,26 +304,33 @@ word-wrap: break-word;
 margin-bottom: 5px;
 }
 
-.Cir-2 {
-position: absolute;
-top: 13%;
-left: 7%;
-transform: translate( -50%, -50%);
-width: 40px;
-height: 40px;
-margin-right: 10px;
-}
-
-.text-post {
+.span-wrapper {
 display: flex;
 align-items: center;
+    }
+
+.R-Reddit,.posted-by {
+color: #D7DADC;
+font-size: 11px;
+font-family: Verdana;
+font-weight: 400;
+word-wrap: break-word;
+    }
+
+.posted-by {
+color: #818384;
+margin-left: 10px;
+    }
+
+p {
+height: 99px;
+width: 828px;
+color: white;
+font-size: 16px;
+font-family: Verdana;
+font-weight: 400;
+word-wrap: break-word
 }
-
-.text-post p {
-margin: 0;
-}
-
-
 
 
 
